@@ -29,7 +29,7 @@ A **Node.js REST microservice** that stores and lists simple items in **PostgreS
 ## 🚀 Run Locally with Docker Compose
 
 ```bash
-git clone https://github.com/<your-username>/items-api.git
+git clone https://github.com/Damola12345/items-api.git
 cd items-api
 
 docker compose up -d
