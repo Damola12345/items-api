@@ -1,5 +1,4 @@
 # items-api
-# 🧩 items-api
 
 A **Node.js REST microservice** that stores and lists simple items in **PostgreSQL**
 
@@ -35,3 +34,8 @@ cd items-api
 
 docker compose up -d
 
+curl http://localhost:8080/healthz
+
+curl -X POST http://localhost:8080/items -H "Content-Type: application/json" -d '{"name": "damola"}'
+
+curl http://localhost:8080/items
